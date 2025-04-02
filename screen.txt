@@ -1,0 +1,107 @@
+# screen 1
+
+[n] New Game
+[r] Resume
+[q] Quit
+
+# screen 2 
+==Name you Character:==
+
+# screen 3
+==Menu:==
+[a] Adventure 
+[r] Rest
+[i] Inventory
+[p] Profile
+[q] Save and Quit
+choice: 
+# screen 4
+You went on an adventure and encountered some monsters!
+[Click] to continue.
+
+# screen 5
+You have leveld up!
++10 Stat points
+[Click] to continue.
+
+# screen 6
+You have rested for the night and are now ready for more adventure!
+[Click] to continue.
+
+# screen 7
+====Inventory====
+
+# screen 8
+[e] Equip
+[u] Use
+[d] Discard
+
+[b] Back
+choice: 
+
+#screen 9
+Item Discard!
+press[enter] to continue.
+
+# screen 10
+==Player Profile==
+[b] Back
+[d] Distribute stat points
+
+# screen 11
+==How many points do you wish to spend:==
+
+# screen 12
+You do not have enough stat points!
+press[enter] to continue.
+
+# screen 13
+==What do you wish to spend it on:==
+[h] HP
+[s] STR
+[d] DEF
+
+[c] Cancel
+
+choice: 
+
+# screen 14
+Item Used!
+[Click] to continue.
+# screen 15
+Game Over
+[Click] to continue.
+# screen 16
+Still In Development!
+[Click] to continue.
+# screen 17
+[a] Attack
+[i] inventory
+[r] Run
+Choice: 
+# screen 18
+Select target:
+[1]  [2]  [3]  [4]
+
+[b] Back
+
+Choice: 
+# screen 19
+You succesfully ran from battle.
+
+No EXP or item gained.
+[Click] to continue.
+# screen 20
+====Inventory====
+
+# screen 21
+[e] Equip
+[u] Use
+[d] Discard
+
+[b] Back
+choice: 
+# screen 22
+Item Used!
+[Click] to continue.
+#

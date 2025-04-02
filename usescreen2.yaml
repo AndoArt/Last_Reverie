@@ -1,0 +1,95 @@
+- View: 
+    style: 
+      backgroundColor: black
+      flex: 1
+      width: 1080
+      height: 1920
+    children:
+      - View:
+          style:
+            width: 1000
+            height: 1200
+            top: 300
+            left: 40
+            alignItems: center
+            position: absolute
+            borderColor: rgb(230, 215, 204)
+            borderRadius: 10
+            borderWidth: 5
+            rowGap: 10
+            flex: 2
+            backgroundColor: rgb(36, 34, 33) 
+      - View:
+          style:
+            width: 1000
+            height: 1220
+            top: 350
+            left: 40
+            alignItems: center
+            justifyContent: center
+            position: absolute
+            borderRadius: 10
+            rowGap: 10
+            flex: 2
+            backgroundColor: rgb(240, 240, 240) 
+          children:
+            - Button:
+                id: "equip"
+                style:
+                  height: 100
+                  width: 300
+                  borderRadius: 10
+                  opacity: 10
+                on_touch:
+                  backgroundColor: rgb(176, 176, 181)
+                children:
+                  - Image:
+                      source: equip.png
+                      style:
+                        width: 300
+                        height: 100
+            - Button:
+                id: "use"
+                style:
+                  height: 100
+                  width: 300
+                  borderRadius: 10
+                  opacity: 10
+                on_touch:
+                  backgroundColor: rgb(176, 176, 181)
+                children:
+                  - Image:
+                      source: use.png
+                      style:
+                        width: 300
+                        height: 100
+            - Button:
+                id: "discard"
+                style:
+                  height: 100
+                  width: 300
+                  borderRadius: 10
+                  opacity: 10
+                on_touch:
+                  backgroundColor: rgb(176, 176, 181)
+                children:
+                  - Image:
+                      source: discard.png
+                      style:
+                        width: 300
+                        height: 100
+            - Button:
+                id: "back"
+                style:
+                  height: 100
+                  width: 300
+                  borderRadius: 10
+                  opacity: 10
+                on_touch:
+                  backgroundColor: rgb(176, 176, 181)
+                children:
+                  - Image:
+                      source: back.png
+                      style:
+                        width: 300
+                        height: 100

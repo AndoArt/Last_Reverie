@@ -1,0 +1,39 @@
+- View: 
+    style: 
+      backgroundColor: white
+      flex: 1
+      justifyContent: center
+      alignItems: center
+      width: 1080
+      height: 1920
+      position: absolute
+      top: 0
+      left: 0
+    children:
+      - Image:
+          source: CProfile.png
+          style:
+            width: 400
+            height: 400
+      - Text:
+          style:
+            fontSize: 50
+            fontFamily: monospace
+            color: black
+          index: {prompt_index}
+      - TextInput:
+          index: {input_index}
+          len: 20
+          style:
+            width: 320
+            height: 50
+            marginTop: 30
+            marginLeft: 30
+            fontSize: 25
+            backgroundColor: white
+            borderColor: gray
+            borderWidth: 1
+          extra_props:
+            placeholder: 'type here'
+            placeholderTextColor: grey
+            autoFocus: true

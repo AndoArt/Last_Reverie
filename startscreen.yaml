@@ -1,0 +1,62 @@
+- View: 
+    style: 
+      backgroundColor: white
+      flex: 1
+      justifyContent: center
+      alignItems: center
+      width: 1080
+      height: 1920
+      position: absolute
+      top: 0
+      left: 0
+    children:
+      - Image:
+          source: Logo.png
+          style:
+            width: 1000
+            height: 600
+      - Button:
+          id: "start"
+          style:
+            height: 100
+            width: 300
+            borderRadius: 10
+            opacity: 10
+          on_touch:
+            backgroundColor: rgb(176, 176, 181)
+          children:
+            - Image:
+                source: newgame.png
+                style:
+                  width: 300
+                  height: 100
+      - Button:
+          id: "resume"
+          style:
+            height: 100
+            width: 300
+            borderRadius: 10
+            opacity: 10
+          on_touch:
+            backgroundColor: rgb(176, 176, 181)
+          children:
+            - Image:
+                source: loadgame.png
+                style:
+                  width: 300
+                  height: 100
+      - Button:
+          id: "quit"
+          style:
+            height: 100
+            width: 300
+            borderRadius: 10
+            opacity: 10
+          on_touch:
+            backgroundColor: rgb(176, 176, 181)
+          children:
+            - Image:
+                source: quit.png
+                style:
+                  width: 300
+                  height: 100

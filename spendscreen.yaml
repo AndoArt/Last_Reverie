@@ -1,0 +1,31 @@
+- View: 
+    style: 
+      backgroundColor: white
+      flex: 1
+      justifyContent: center
+      alignItems: center
+      width: 1080
+      height: 1920
+    children:
+      - Text:
+          style:
+            fontSize: 35
+            fontFamily: monospace
+            color: black
+          index: {prompt_index}
+      - TextInput:
+          index: {input_index}
+          len: 20
+          style:
+            width: 320
+            height: 35
+            marginTop: 30
+            marginLeft: 30
+            fontSize: 25
+            backgroundColor: white
+            borderColor: gray
+            borderWidth: 1
+          extra_props:
+            placeholder: 'type here'
+            placeholderTextColor: grey
+            autoFocus: true

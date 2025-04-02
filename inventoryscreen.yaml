@@ -1,0 +1,177 @@
+- View: 
+    style: 
+      backgroundColor: black
+      flex: 1
+      width: 1080
+      height: 1920
+      position: absolute
+      top: 0
+      left: 0
+    children:
+      - View:
+          style:
+            width: 1000
+            height: 190
+            top: 300
+            left: 40
+            alignItems: center
+            position: absolute
+            borderColor: rgb(230, 215, 204)
+            borderRadius: 10
+            borderWidth: 5
+            rowGap: 10
+            flex: 2
+            backgroundColor: rgb(36, 34, 33) 
+      - View:
+          style:
+            width: 1000
+            height: 1220
+            top: 350
+            left: 40
+            alignItems: center
+            position: absolute
+            borderRadius: 10
+            rowGap: 10
+            flex: 2
+            backgroundColor: rgb(240, 240, 240) 
+      - View:
+          style:
+            width: 1040
+            height: 200
+            top: 25
+            left: 20
+            alignItems: center
+            position: absolute
+            borderColor: rgb(230, 215, 204)
+            borderRadius: 10
+            borderWidth: 5
+            rowGap: 10
+            flex: 1
+            flex-direction: row
+            backgroundColor: rgb(130, 96, 74) 
+          children:
+            - Image:
+                source: CProfile.png
+                style:
+                  width: 280
+                  height: 280
+                  position: absolute
+                  top: 20
+                  left: 20
+      - View:
+          style:
+            width: 1040
+            height: 280
+            top: 1620
+            left: 20
+            alignItems: center
+            position: absolute
+            borderColor: rgb(230, 215, 204)
+            borderRadius: 10
+            borderWidth: 5
+            rowGap: 10
+            flex: 2
+            backgroundColor: rgb(130, 96, 74) 
+          children:
+            - Button:
+                id: "back"
+                style:
+                  height: 100
+                  width: 1000
+                  top: 10
+                  borderRadius: 10
+                  alignItems: center
+                  backgroundColor: rgb(41, 29, 20)
+                  borderWidth: 5
+                  borderColor: rgb(230, 215, 204)
+                on_touch:
+                  backgroundColor: black
+                children:
+                  - Image:
+                      source: wback.png
+                      style:
+                        width: 300
+                        height: 100
+      - Button:
+          id: "item1"
+          style:
+            height: 190
+            width: 900
+            borderRadius: 10
+            backgroundColor: rgb(41, 29, 20)
+            borderColor: rgb(230, 215, 204)
+            borderWidth: 10
+            position: absolute
+            top: 350
+            left: 90
+          on_touch:
+            backgroundColor: black
+      - Button:
+          id: "item2"
+          style:
+            height: 190
+            width: 900
+            borderRadius: 10
+            borderColor: rgb(230, 215, 204)
+            borderWidth: 10
+            opacity: 10
+            position: absolute
+            backgroundColor: rgb(41, 29, 20)
+            top: 555
+            left: 90
+          on_touch:
+            backgroundColor: black
+      - Button:
+          id: "item3"
+          style:
+            height: 190
+            width: 900
+            borderRadius: 10
+            borderColor: rgb(230, 215, 204)
+            borderWidth: 10
+            opacity: 10
+            position: absolute
+            backgroundColor: rgb(41, 29, 20)
+            top: 765
+            left: 90
+          on_touch:
+            backgroundColor: black
+      - Button:
+          id: "item4"
+          style:
+            height: 190
+            width: 900
+            borderRadius: 10
+            borderColor: rgb(230, 215, 204)
+            borderWidth: 10
+            opacity: 10
+            position: absolute
+            backgroundColor: rgb(41, 29, 20)
+            top: 970
+            left: 90
+          on_touch:
+            backgroundColor: black
+      - Button:
+          id: "item5"
+          style:
+            height: 190
+            width: 900
+            borderRadius: 10
+            borderColor: rgb(230, 215, 204)
+            borderWidth: 10
+            opacity: 10
+            position: absolute
+            backgroundColor: rgb(41, 29, 20)
+            top: 1175
+            left: 90
+          on_touch:
+            backgroundColor: black
+      - Text:
+          style:
+            fontSize: 35
+            position: absolute
+            top: 40
+            left: 340
+            fontFamily: monospace
+            color: white
+          index: {prompt_index}

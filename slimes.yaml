@@ -1,0 +1,32 @@
+- Image:
+    source: slime.png
+    style:
+      width: 300
+      height: 300
+      position: absolute
+      top: 300
+      left: 50
+- Image:
+    source: slime.png
+    style:
+      width: 300
+      height: 300
+      position: absolute
+      top: 525
+      left: 50
+- Image:
+    source: slime.png
+    style:
+      width: 300
+      height: 300
+      position: absolute
+      top: 750
+      left: 50
+- Image:
+    source: slime.png
+    style:
+      width: 300
+      height: 300
+      position: absolute
+      top: 975
+      left: 50
